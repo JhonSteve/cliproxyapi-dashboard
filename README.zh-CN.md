@@ -139,7 +139,7 @@ bunx oh-my-opencode-slim@latest install --no-tui     # Slim 版
 
 ## 截图
 
-以下为启用简体中文语言包后，本地运行的实际界面截图。账号、密钥占位符、配额和服务状态均为演示数据；品牌、技术标识及尚未接入语言包的内容可能保留英文。[截图来源与说明](docs/screenshots/zh-CN/README.md)。
+以下为启用简体中文语言包后，本地运行的实际界面截图，采用与英文原图一致的离线、未配置演示场景，不包含真实账号、密钥或用量数据。品牌、技术标识及尚未接入语言包的内容可能保留英文。[截图来源与说明](docs/screenshots/zh-CN/README.md)。
 
 <p align="center">
   <img src="docs/screenshots/zh-CN/setup-wizard.png" alt="简体中文设置向导" width="700">
