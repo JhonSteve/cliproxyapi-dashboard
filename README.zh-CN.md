@@ -139,8 +139,6 @@ bunx oh-my-opencode-slim@latest install --no-tui     # Slim 版
 
 ## 截图
 
-以下为启用简体中文语言包后，本地运行的实际界面截图，采用与英文原图一致的离线、未配置演示场景，不包含真实账号、密钥或用量数据。品牌、技术标识及尚未接入语言包的内容可能保留英文。[截图来源与说明](docs/screenshots/zh-CN/README.md)。
-
 <p align="center">
   <img src="docs/screenshots/zh-CN/setup-wizard.png" alt="简体中文设置向导" width="700">
   <br><em>设置向导：引导完成初始配置</em>
@@ -148,7 +146,7 @@ bunx oh-my-opencode-slim@latest install --no-tui     # Slim 版
 
 <p align="center">
   <img src="docs/screenshots/zh-CN/providers-light.png" alt="简体中文提供商配置" width="700">
-  <br><em>提供商配置：查看 API 密钥提供商及其状态</em>
+  <br><em>提供商配置：管理 API 密钥和 OAuth 账号</em>
 </p>
 
 <p align="center">
@@ -290,7 +288,7 @@ Release-Please 会根据提交信息自动生成发行版本。开发环境、�
 2. **翻译所有文本：**
    - 在编辑器中打开新文件。
    - 翻译每个值，保持所有键名和层级结构不变。
-   - 例如，下方展示德语译文：
+   - 示例：
      ```json
      {
        "common": {
