@@ -56,7 +56,7 @@ The local setup scripts start Docker Compose with a local dashboard build (`--bu
 
 Open **http://localhost:3000** → create admin account → done.
 
-> **Server deployment**: See the full [Installation Guide](docs/INSTALLATION.md). Already running CLIProxyAPI? `sudo ./install.sh --dashboard-only` installs just the dashboard and its database.
+> **Server deployment**: See the full [Installation Guide](docs/INSTALLATION.md). Already running CLIProxyAPI? `sudo ./install.sh --dashboard-only` installs the dashboard and its database while reusing your existing CLIProxyAPI. This mode also includes usage collection and backup scheduling helper services, as described in the installation guide.
 
 ## Features
 
@@ -79,6 +79,8 @@ Open **http://localhost:3000** → create admin account → done.
 - **Backup & Restore** — Create, schedule, upload, preview, and restore dashboard backups (Settings → Backup)
 - **Light/Dark Theme & Languages** — Theme toggle; UI in English, German, Spanish, and Simplified Chinese
 - **Automatic TLS** — Let's Encrypt certificates via Caddy, auto-renewed
+
+> Feature availability depends on the deployment mode. In dashboard-only mode, restarting or updating the CLIProxyAPI container requires separately providing compatible Docker access and container naming; see the [Installation Guide](docs/INSTALLATION.md). Version switching also requires writable version-pinning configuration; see the [Environment Variables reference](docs/ENV.md). Updating Dashboard from the web UI requires a deploy webhook service and `DEPLOY_SECRET`; see [Webhook / Deploy configuration](docs/CONFIGURATION.md#webhook--deploy-optional-for-cicd).
 
 ## Local Providers (Ollama / LM Studio / llama.cpp)
 

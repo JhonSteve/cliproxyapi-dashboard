@@ -80,7 +80,7 @@ cd cliproxyapi-dashboard
 - **明暗主题与多语言** — 支持主题切换，以及英语、德语、西班牙语和简体中文界面。
 - **自动 TLS** — 通过 Caddy 获取并自动续期 Let's Encrypt 证书。
 
-> 功能是否可用取决于部署方式。仅部署 Dashboard 时，若未另外提供兼容的 Docker 访问方式和容器命名，便无法从仪表盘重启或更新 CLIProxyAPI 容器；版本切换还需要可写的版本固定配置。Dashboard 网页更新则需要部署 Webhook 服务并配置 `DEPLOY_SECRET`。详见[安装指南](docs/INSTALLATION.md)和[环境变量参考](docs/ENV.md)。
+> 功能是否可用取决于部署方式。仅部署 Dashboard 时，需要另外提供兼容的 Docker 访问方式和容器命名，才能从仪表盘重启或更新 CLIProxyAPI 容器，详见[安装指南](docs/INSTALLATION.md)。版本切换还需要可写的版本固定配置，详见[环境变量参考](docs/ENV.md)。Dashboard 网页更新则需要部署 Webhook 服务并配置 `DEPLOY_SECRET`，详见 [Webhook / 部署配置](docs/CONFIGURATION.md#webhook--deploy-optional-for-cicd)。
 
 ## 本地提供商（Ollama / LM Studio / llama.cpp）
 
