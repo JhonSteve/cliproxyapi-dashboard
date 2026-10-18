@@ -139,6 +139,8 @@ Each variant has its own config file (`oh-my-openagent.json` / `oh-my-opencode-s
 
 ## Screenshots
 
+The [Simplified Chinese README](README.zh-CN.md#截图) includes localized UI screenshots captured from the application running locally with synthetic accounts, key placeholders, quotas, and service status. See the [capture notes](docs/screenshots/zh-CN/README.md) for provenance and localization limitations.
+
 <p align="center">
   <img src="docs/screenshots/setup-wizard.png" alt="Setup Wizard" width="700">
   <br><em>Setup Wizard — guided initial configuration</em>

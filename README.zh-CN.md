@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/providers-light.png" alt="CLIProxyAPI Dashboard" width="800">
+  <img src="docs/screenshots/zh-CN/providers-light.png" alt="CLIProxyAPI Dashboard 简体中文界面" width="800">
 </p>
 
 <h1 align="center">CLIProxyAPI Dashboard</h1>
@@ -139,23 +139,25 @@ bunx oh-my-opencode-slim@latest install --no-tui     # Slim 版
 
 ## 截图
 
+以下为启用简体中文语言包后，本地运行的实际界面截图。账号、密钥占位符、配额和服务状态均为演示数据；品牌、技术标识及尚未接入语言包的内容可能保留英文。[截图来源与说明](docs/screenshots/zh-CN/README.md)。
+
 <p align="center">
-  <img src="docs/screenshots/setup-wizard.png" alt="设置向导" width="700">
+  <img src="docs/screenshots/zh-CN/setup-wizard.png" alt="简体中文设置向导" width="700">
   <br><em>设置向导：引导完成初始配置</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/providers-light.png" alt="提供商配置" width="700">
-  <br><em>提供商配置：管理 API 密钥和 OAuth 账号</em>
+  <img src="docs/screenshots/zh-CN/providers-light.png" alt="简体中文提供商配置" width="700">
+  <br><em>提供商配置：查看 API 密钥提供商及其状态</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/quota.png" alt="配额管理" width="700">
+  <img src="docs/screenshots/zh-CN/quota.png" alt="简体中文配额管理" width="700">
   <br><em>配额管理：跟踪限额，并通过 Telegram 接收告警</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/settings.png" alt="设置" width="700">
+  <img src="docs/screenshots/zh-CN/settings.png" alt="简体中文设置" width="700">
   <br><em>设置：配置同步、系统信息和更新</em>
 </p>
 
